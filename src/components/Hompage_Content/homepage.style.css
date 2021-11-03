@@ -1,0 +1,78 @@
+
+.homepage{
+    overflow: hidden;
+}
+.introduce{
+    width: 100%;
+    min-height: 35rem;
+
+}
+.offers{
+    width: 100%;
+    min-height: 30rem;
+}
+.news{
+    width: 100%;
+    min-height: 30rem;
+  
+}
+.why_kamva{
+    width: 100%;
+    min-height: 18rem;
+}
+.show-template{
+    width: 100%;
+    min-height: 30rem;
+}
+.support{
+    width: 100%;
+    min-height: 30rem;
+}
+.register{
+    width: 100%;
+    min-height: 20rem;
+}
+
+header ,.header{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:rgb(65, 65, 90);
+}
+.col{
+margin-top: 2rem;
+}
+.footer{
+    width: 100%;
+    min-height: 30rem;
+    background-color:#EAEAEA ;
+}
+
+@media (max-width: 575.98px) {
+    .conteiner{
+        margin: 0;
+        padding: 0;
+    }
+    .title{
+        text-align: center;
+    }
+    .first-content{
+        background-color: #FF7F7F;
+        
+    }
+  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .right-content{
+        background-color: #FF7F7F;
+        
+    }
+  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) { }

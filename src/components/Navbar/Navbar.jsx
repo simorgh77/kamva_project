@@ -7,10 +7,13 @@ const MyNavbar = () => {
     const history=useHistory()
     console.log(history);
     return (
-        <div>
-   <Navbar collapseOnSelect expand="lg" sticky='top'style={{boxShadow:'rgb(0 0 0 / 16%) 0px 3px 6px'}}>
+        <div className=' sticky-top bg-white'
+        data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" style={{boxShadow:'rgb(0 0 0 / 16%) 0px 3px 6px'}}>
+   <Navbar collapseOnSelect expand="lg">
   <Container >
-  <Navbar.Brand href="#home" className='p-4  mx-2'><img src="https://kamva.ir/static/header-logo.bf314871.svg" alt="Brand" /></Navbar.Brand>
+  <Navbar.Brand href="#home" className='py-4'><img src="https://kamva.ir/static/header-logo.bf314871.svg" alt="Brand" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav" className=''  >
     <Nav className="me-auto mx-auto" >
