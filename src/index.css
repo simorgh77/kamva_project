@@ -1,9 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:vazir;
+  src: url("./assest/Vazir-Regular-FD-WOL.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-}
-*{
-  box-sizing: border-box;
+  font-family: vazir;
 }

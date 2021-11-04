@@ -16,8 +16,10 @@ className='text-center mt-5 d-flex flex-wrap justify-content-between align-conte
                        className="fluid" /></div>
 
                         <div className='mt-4 d-flex justify-content-around'>
-                        <div className=' w-50 d-flex justify-content-between'> <AiFillInstagram style={{fontSize:'2rem'}}/>
-                         <BsTwitter style={{fontSize:'2rem'}}/> <FaFacebookF style={{fontSize:'2rem'}}/> </div>  
+                        <div className=' w-50 d-flex justify-content-between'>
+                             <AiFillInstagram className='p-3 rounded-circle' style={{fontSize:'3.5rem', backgroundColor:'#DDDDDD'}}/>
+                         <BsTwitter className='p-3 rounded-circle' style={{fontSize:'3.5rem', backgroundColor:'#DDDDDD'}}/>
+                          <FaFacebookF className='p-3 rounded-circle' style={{fontSize:'3.5rem', backgroundColor:'#DDDDDD'}}/> </div>  
                            </div>
 </Col>
 

@@ -22,8 +22,9 @@
 }
 .show-template{
     width: 100%;
-    min-height: 30rem;
+    min-height: 10rem;
 }
+
 .support{
     width: 100%;
     min-height: 30rem;
@@ -41,10 +42,18 @@ header ,.header{
 .col{
 margin-top: 2rem;
 }
+
 .footer{
     width: 100%;
     min-height: 30rem;
     background-color:#EAEAEA ;
+}
+
+
+.show-template-background{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9Ijc1Mi42MTEiIHZpZXdCb3g9IjAgMCAxNDk5Ljk5MiA3NTIuNjExIiB3aWR0aD0iMTQ5OS45OTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTExMS43NDgtMjcxLjIzMmMxLjA3MS0xOC44NzIgMTIuNTU4LTE4NS43OSAxMTQuMzI5LTIzMC40NzMgMTA5LjM3MS00OC4wMiAxOTQuNzYxIDEwMS40NDMgMzk1LjYxNiAxMDguODg1IDE0NC45NzUgNS4zNzIgMTYyLjM0OS03MC4yIDM1NS42OTEtMTEyLjUxNSA4OS4wNjgtMTkuNDkyIDM2Ny42NDctODAuNDU1IDUyMC44MzMgNjUuMzMxIDE4Mi45MjcgMTc0LjA4OSAxMjIuNTM5IDU4MS42LTMwLjg1MSA2NDkuNjgxLTY4LjMyMSAzMC4zMjMtMTkyLjU0Mi0yNC41NDYtNDQwLjk4My0xMzQuMjkxLTE1Ni41NS02OS4xNTMtMjA5LjUyMi0xMDYuMTUtMjgzLjEwMS04NS4yOTMtMTI1LjIyNyAzNS40OTYtMTE1LjQ3MyAxODMuMzkzLTIxNy43NyAyMTAuNTA3LTE1MS4wNzMgNDAuMDUyLTQyOC4zNDUtMjE0LjYzNi00MTMuNzY0LTQ3MS44MzJ6IiBmaWxsPSIjZjZmNmY2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTExLjE5NSA1MzQuNjU5KSIvPjwvc3ZnPg==");
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 
 @media (max-width: 575.98px) {
@@ -57,22 +66,135 @@ margin-top: 2rem;
     }
     .first-content{
         background-color: #FF7F7F;
-        
     }
-  }
+    .my-input{
+        margin: 0 auto !important;
+    }
+    .show-template{
+        width: 100% !important;
+    }
+    .show-template-button{
+        width: 100% !important;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .right-content{
         background-color: #FF7F7F;
-        
     }
-  }
+    .my-input{
+        margin: 0 auto !important;
+    }
+    .show-template{
+        width: 100% !important;
+    }
+    .show-template-button{
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .right-content{
+        background-color: #FF7F7F;
+        width: 100%;
+    }
+    .my-input{
+        margin: 0 auto;
+        width: 80%;
+        border-radius:0px 90px 90px 0px;
+        border: transparent;
+    }
+    .register-my-input{
+        margin: 0 auto;
+        width: 80%;
+        border-radius:0px 90px 90px 0px;
+        border: transparent;
+    }
+    .div-with-input{
+        width: 100% !important;
+        height: 4.5rem;
+        background-color: white !important;
+    }
+    .register-div-with-input{
+        width: 100% !important;
+        height: 4.5rem;
+        background-color: white !important;
+    }
+    .register-div-with-input{
+        width: 100% !important;
+        height: 4.5rem;
+        background-color: white !important;
+    }
+    .show-template{
+        width: 100% !important;
+    }
+    .show-template-button{
+        width: 100% !important;
+    }
+}
 
 
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+     .rounded-pill-top{
+    background-color:#A0B3FF ;
+    width: 50%;
+    height: 30rem !important;
+    clip-path:  circle(50% at 50% 50%);
+    
+}
+.div-with-input{
+    width: 26vw !important;
+    height: 4.5rem;
+    background-color: white !important;
+} 
+.register-div-with-input{
+    width: 26vw !important;
+    height: 4.5rem;
+    background-color: white !important;
+} 
+.register-my-input{
+    width: 50% !important;
+    border-radius:0px 90px 90px 0px;
+    border: transparent;
+}
+
+}
 
 
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 1200px) {
 
 
-@media (min-width: 1200px) { }
+    .rounded-pill-top{
+        background-color:#A0B3FF ;
+        width: 50%;
+        height: 40rem !important;
+        clip-path:  circle(50% at 55% 31%);
+        transform: translateX(50px);
+    }
+    .div-with-input{
+        margin-top:-4rem ;
+       
+    }
+    .div-with-input{
+        width: 26vw !important;
+        height: 4.5rem;
+        background-color: white !important;
+    }
+    .register-div-with-input{
+        width: 29vw !important;
+        height: 4.6rem;
+        border: .5px solid lightgray !important;
+        align-items: center;    }
+    .my-input{
+        width: 56% !important;
+        border-radius:0px 90px 90px 0px;
+        border: transparent;
+    }
+    .register-my-input{
+        width: 60% !important;
+        transform: translateY(-5px);
+        border-radius:0px 90px 90px 0px;
+        border: transparent !important;
+    }
+    
+}
